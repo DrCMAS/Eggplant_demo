@@ -8,3 +8,5 @@ m,c=np.polyfit(x,y,1)
 
 plt.plot(x,y,'x')
 plt.plot(x,(m*x+c))
+
+plt.savefig('Test.png')
